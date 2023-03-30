@@ -1,0 +1,1 @@
+Quiz-App - to familiarise myself with Javascript functions, methods etc
