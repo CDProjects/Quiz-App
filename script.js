@@ -13,5 +13,12 @@ const quizData = [
         c: 'Jonah Lomu',
         d: 'Bryan Habana & Jonah Lomu',
         correct: 'd',
+    }, {
+        question: 'Which player has scored the most points at a Rugby World Cup tournament?',
+        a: 'Gavin Hastings - Scotland',
+        b: 'Michael Lynagh - Australia',
+        c: 'Jonny Wilkinson - England',
+        d: 'Dan Carter - New Zealand',
+        correct: 'c',
     }
 ]
