@@ -35,13 +35,18 @@ const quizData = [
         d: 'Jonny Wilkinson - England',
         correct: 'a',
     }, {
-        question: 'Name the oldest player to appear in a Rugby World Cup final',
+        question: 'Name the oldest player to win a Rugby World Cup final',
         a: 'Richie McCaw - New Zealand',
         b: 'Stirling Mortlock - Australia',
         c: 'Martin Johnson - England',
         d: 'Schalk Brits - South Africa',
         correct: 'd',
     }, {
-        question: 
+        question: 'Name the youngest player to win a Rugby World Cup final',
+        a: 'David Campese - Australia',
+        b: 'Jonah Lomu - New Zealand',
+        c: 'Cheslin Kolbe - South Africa',
+        d: 'François Steyn - South Africa',
+        correct: 'd',
     }
 ]
