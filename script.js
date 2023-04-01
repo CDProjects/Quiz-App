@@ -14,7 +14,7 @@ const quizData = [
         d: 'Bryan Habana & Jonah Lomu',
         correct: 'd',
     }, {
-        question: 'Which player has scored the most points at a Rugby World Cup tournament?',
+        question: 'Which player has scored the most overall points in Rugby World Cup history?',
         a: 'Gavin Hastings - Scotland',
         b: 'Michael Lynagh - Australia',
         c: 'Jonny Wilkinson - England',
@@ -26,6 +26,22 @@ const quizData = [
         b: 'George North - Wales',
         c: 'Brian Lima - Samoa',
         d: 'Rory Best - Ireland',
-        correct: 'b'
+        correct: 'b',
+    }, {
+        question: 'Which player scored the most points in a Rugby World Cup tournament?',
+        a: 'Grant Fox - New Zealand',
+        b: 'Percy Montgomery - South Africa',
+        c: 'Thierry Lacroix - France',
+        d: 'Jonny Wilkinson - England',
+        correct: 'a',
+    }, {
+        question: 'Name the oldest player to appear in a Rugby World Cup final',
+        a: 'Richie McCaw - New Zealand',
+        b: 'Stirling Mortlock - Australia',
+        c: 'Martin Johnson - England',
+        d: 'Schalk Brits - South Africa',
+        correct: 'd',
+    }, {
+        question: 
     }
 ]
