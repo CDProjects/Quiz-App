@@ -20,5 +20,12 @@ const quizData = [
         c: 'Jonny Wilkinson - England',
         d: 'Dan Carter - New Zealand',
         correct: 'c',
+    }, {
+        question: 'Which player was the youngest player to score a try in a Rugby World cup game?',
+        a: 'Juan Martín Hernández - Argentina',
+        b: 'George North - Wales',
+        c: 'Brian Lima - Samoa',
+        d: 'Rory Best - Ireland',
+        correct: 'b'
     }
 ]
