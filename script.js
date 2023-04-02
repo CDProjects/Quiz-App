@@ -6,6 +6,13 @@ const quizData = [
         c: '2',
         d: '3',
         correct: 'b',
+    },{
+        question: 'How many Rugby World Cups has the Southern Hemisphere won since the inaugural tournament in 1987?',
+        a: '6',
+        b: '7',
+        c: '8',
+        d: '9',
+        correct_: 'c',
     }, {
         question: 'which player has scored the most tries in a Rugby World Cup tournament?',
         a: 'Jonny Wilkinson',
@@ -48,5 +55,7 @@ const quizData = [
         c: 'Cheslin Kolbe - South Africa',
         d: 'François Steyn - South Africa',
         correct: 'd',
+    }, {
+
     }
 ]
