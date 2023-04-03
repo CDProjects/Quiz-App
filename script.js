@@ -42,21 +42,26 @@ const quizData = [
         d: 'Jonny Wilkinson - England',
         correct: 'a',
     }, {
-        question: 'Name the oldest player to win a Rugby World Cup final',
+        question: 'Which player is the oldest player to win a Rugby World Cup final?',
         a: 'Richie McCaw - New Zealand',
         b: 'Stirling Mortlock - Australia',
         c: 'Martin Johnson - England',
         d: 'Schalk Brits - South Africa',
         correct: 'd',
     }, {
-        question: 'Name the youngest player to win a Rugby World Cup final',
+        question: 'Which player is the youngest player to win a Rugby World Cup final?',
         a: 'David Campese - Australia',
         b: 'Jonah Lomu - New Zealand',
         c: 'Cheslin Kolbe - South Africa',
         d: 'François Steyn - South Africa',
         correct: 'd',
     }, {
-
+        question: 'Which player has kicked the most penalties in one Rugby World Cup match?',
+        a: 'Jonny Wilkinson - England',
+        b: 'Gavin Hastings - Scotland',
+        c: 'Matt Burke - Australia',
+        d: 'Grant Fox - New Zealand',
+        correct: 'b',
     }
 ];
 
