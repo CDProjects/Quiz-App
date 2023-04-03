@@ -14,7 +14,7 @@ const quizData = [
         d: '9',
         correct_: 'c',
     }, {
-        question: 'which player has scored the most tries in a Rugby World Cup tournament?',
+        question: 'Which player has scored the most tries in a Rugby World Cup tournament?',
         a: 'Jonny Wilkinson',
         b: 'Bryan Habana',
         c: 'Jonah Lomu',
