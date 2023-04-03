@@ -20,6 +20,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 400px;
+    overflow: hidden;
     max-width: 100%;
 }
 
@@ -34,12 +35,18 @@ ul {
 
 button {
     background-color: #8e44ad;
+    border: none;
     display: block;
     width: 100%;
-    padding: 1rem;
+    padding: 1.3rem;
     color: white;
     font-family: inherit;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 
+}
+
+button:hover {
+    background-color: #732d91;
+    cursor: pointer;
 }
