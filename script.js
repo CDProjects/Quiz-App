@@ -75,6 +75,8 @@ let score = 0;
 loadQuiz();
 
 function loadQuiz() {
+    deselectAnswers();
+
     const currentQuizData = quizData
     [currentQuiz];
 
@@ -85,4 +87,21 @@ function loadQuiz() {
     d_text.innerText = currentQuizData.d;
 }
 
-sub
+function getSelected() {
+    let answer = undefined;
+
+    answerEls.forEach((answerEl) => {
+        answer = answerEl.id;
+    });
+
+    return answer;
+
+}
+
+function deselectAnswers() {
+    answerEls.forEach((answerEl) => {
+        answerEl.checked = false;
+
+    });
+    
+}
