@@ -103,5 +103,27 @@ function deselectAnswers() {
         answerEl.checked = false;
 
     });
-    
+
 }
+
+submitBtn.addEventListener("click", () => {
+    //check to see the answer
+    const answer = getSelected();
+
+    if (answer) {
+        if (answer === quizData[currentQuiz.correct].correct) {
+            score++;
+        }
+
+        currentQuiz++;
+        if (currentQuiz < quizData.length) {
+            loadQuiz();
+        } else {
+            quiz.innerHTML = `
+            <h2>You answered correctly at ${score}/${quizData.length} questions.</h2>
+            
+            <button onclick="location.reload()">Reload</button>
+            `;
+        }        
+    }
+});
